@@ -1,6 +1,7 @@
 .vs/
 build/
-bin/
-*.exe
+/bin/*.exe
 *.obj
 *.pdb
+!1lab/bin/
+!1lab/bin/DirectXApp.exe
