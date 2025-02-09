@@ -14,7 +14,10 @@
 
 ---
 
-### **Компиляция**
-Для сборки проекта используйте команду:
-```bash
-cl main.cpp /I"../include" /Fe:../bin/DirectXApp.exe /link user32.lib gdi32.lib d3d11.lib dxgi.lib
+### **Запуск**
+Файл `DirectXApp.exe` доступен в репозитории. Вы можете запустить его напрямую:
+
+1. Перейдите в папку `1lab/bin`.
+2. Запустите приложение:
+   ```bash
+   .\DirectXApp.exe
