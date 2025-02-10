@@ -43,12 +43,18 @@ void InitD3D(HWND hWnd) {
     swapChainDesc.Windowed = TRUE;
     swapChainDesc.SwapEffect = DXGI_SWAP_EFFECT_DISCARD;
 
+    UINT createDeviceFlags = 0;
+    #ifdef _DEBUG
+        createDeviceFlags |= D3D11_CREATE_DEVICE_DEBUG;
+    #endif
+
     D3D_FEATURE_LEVEL featureLevel;
     D3D11CreateDeviceAndSwapChain(
-        nullptr, D3D_DRIVER_TYPE_HARDWARE, nullptr, 0, nullptr, 0,
+        nullptr, D3D_DRIVER_TYPE_HARDWARE, nullptr, createDeviceFlags, nullptr, 0,
         D3D11_SDK_VERSION, &swapChainDesc, &swapChain,
         &device, &featureLevel, &context
     );
+
 
     ID3D11Texture2D* backBuffer = nullptr;
     swapChain->GetBuffer(0, __uuidof(ID3D11Texture2D), (void**)&backBuffer);
