@@ -127,12 +127,15 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>d3d11.lib;dxgi.lib;d3dcompiler.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="labs\lab1\config.h" />
+    <ClCompile Include="labs\lab2\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="labs\lab1\main.cpp" />
+    <ClInclude Include="labs\lab2\config.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
