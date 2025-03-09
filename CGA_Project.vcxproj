@@ -18,6 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="labs\lab3\d3d_utils.h" />
+    <ClInclude Include="labs\lab3\main.h" />
+    <ClInclude Include="labs\lab3\shaders.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="labs\lab3\d3d_utils.cpp" />
+    <ClCompile Include="labs\lab3\main.cpp" />
+    <ClCompile Include="labs\lab3\shaders.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -131,12 +141,6 @@
       <ShaderModel>5.0</ShaderModel>
     </FxCompile>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="labs\lab2\main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="labs\lab2\config.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
