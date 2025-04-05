@@ -19,9 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="labs\lab4\d3d_utils.h" />
-    <ClInclude Include="labs\lab4\main.h" />
-    <ClInclude Include="labs\lab4\shaders.h" />
+    <Image Include="labs\lab4\bricks.dds" />
+    <Image Include="labs\lab4\skybox.dds" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="labs\lab4\d3d_utils.cpp" />
@@ -29,8 +28,9 @@
     <ClCompile Include="labs\lab4\shaders.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="labs\lab4\bricks.dds" />
-    <Image Include="labs\lab4\skybox.dds" />
+    <ClInclude Include="labs\lab4\d3d_utils.h" />
+    <ClInclude Include="labs\lab4\main.h" />
+    <ClInclude Include="labs\lab4\shaders.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
