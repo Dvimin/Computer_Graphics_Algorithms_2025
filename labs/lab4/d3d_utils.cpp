@@ -366,7 +366,7 @@ void InitD3D(HWND hWnd) {
     hr = device->CreateBuffer(&bd, nullptr, &constantBufferViewProjection);
     if (FAILED(hr)) MessageBox(nullptr, L"CreateBuffer (ViewProjection) failed", L"Error", MB_OK);
 
-    hr = DirectX::CreateDDSTextureFromFile(device, L"../../labs/lab4/bricks.dds", nullptr, &textureView);
+    hr = DirectX::CreateDDSTextureFromFile(device, L"../../labs/lab4/cat2.dds", nullptr, &textureView);
     if (FAILED(hr)) MessageBox(nullptr, L"Failed to load texture", L"Error", MB_OK);
 
     D3D11_SAMPLER_DESC sampDesc = {};
@@ -381,7 +381,7 @@ void InitD3D(HWND hWnd) {
     hr = device->CreateSamplerState(&sampDesc, &samplerState);
     if (FAILED(hr)) MessageBox(nullptr, L"Failed to create sampler", L"Error", MB_OK);
 
-    hr = DirectX::CreateDDSTextureFromFile(device, L"../../labs/lab4/skybox.dds", nullptr, &skyboxTexture);
+    hr = DirectX::CreateDDSTextureFromFile(device, L"../../labs/lab4/sky2.dds", nullptr, &skyboxTexture);
     if (FAILED(hr)) MessageBox(nullptr, L"Failed to load cubemap", L"Error", MB_OK);
 
     pFactory->Release();
