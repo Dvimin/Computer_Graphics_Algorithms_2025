@@ -17,6 +17,12 @@
   <ItemGroup>
     <Image Include="labs\lab4\bricks.dds" />
     <Image Include="labs\lab4\skybox.dds" />
+    <Image Include="labs\lab4\cat2.dds">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="labs\lab4\sky2.dds">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="labs\lab4\d3d_utils.cpp">
