@@ -15,28 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="labs\lab4\bricks.dds" />
-    <Image Include="labs\lab4\skybox.dds" />
+    <Image Include="labs\lab5\cat2.dds" />
+    <Image Include="labs\lab5\sky2.dds" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="labs\lab4\d3d_utils.cpp">
+    <ClCompile Include="labs\lab5\d3d_utils.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="labs\lab4\main.cpp">
+    <ClCompile Include="labs\lab5\main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="labs\lab4\shaders.cpp">
+    <ClCompile Include="labs\lab5\shaders.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="labs\lab4\d3d_utils.h">
+    <ClInclude Include="labs\lab5\d3d_utils.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="labs\lab4\main.h">
+    <ClInclude Include="labs\lab5\main.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="labs\lab4\shaders.h">
+    <ClInclude Include="labs\lab5\shaders.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
