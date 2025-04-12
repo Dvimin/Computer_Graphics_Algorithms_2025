@@ -507,7 +507,7 @@ void InitD3D(HWND hWnd) {
     hr = device->CreateSamplerState(&sampDesc, &samplerState);
     if (FAILED(hr)) MessageBox(nullptr, L"Failed to create sampler", L"Error", MB_OK);
 
-    hr = DirectX::CreateDDSTextureFromFile(device, L"./labs/lab5/sky2.dds", nullptr, &skyboxTexture);
+    hr = DirectX::CreateDDSTextureFromFile(device, L"./labs/lab5/skybox.dds", nullptr, &skyboxTexture);
     if (FAILED(hr)) MessageBox(nullptr, L"Failed to load cubemap", L"Error", MB_OK);
 
     transparentTextureView = CreateSolidColorTexture(1.0f, 0.0f, 0.0f, 0.5f);
