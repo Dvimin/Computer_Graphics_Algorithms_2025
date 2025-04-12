@@ -19,7 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
 	<ItemGroup>
-		<None Include="labs\lab4\*.dds">
+		<None Include="labs\lab4\cat2.dds">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Include="labs\lab4\skybox.dds">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
 	</ItemGroup>
