@@ -1,0 +1,1 @@
+C:\Users\Misha\Desktop\POLYTECH\4_year\Comp_Graphics_Alg\CGA_Project\libs\DirectXTK-main\Bin\Desktop_2022\x64\Debug\DirectXTK.lib

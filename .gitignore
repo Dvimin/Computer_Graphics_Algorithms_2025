@@ -27,5 +27,9 @@
 x64/
 Debug/
 Release/
+
+!libs/DirectXTK-main/Bin/Desktop_2022/x64/Debug/DirectXTK.lib
+!libs/DirectXTK-main/Bin/Desktop_2022/x64/Release/DirectXTK.lib
+
  
 .vs/ 
